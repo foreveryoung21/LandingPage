@@ -58,6 +58,10 @@ table {
     
 }
 
+header h1 {
+    color: white;
+}
+
 
 header{
     display: flex;
@@ -149,6 +153,8 @@ img{
 
 
 
+
+
 footer {
     display: flex;
     justify-content: center;
@@ -157,3 +163,14 @@ footer {
     height:40px;
     width: 100%;
 }
+
+@media (max-width: 607px) {
+    .headline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headline-description{
+        margin-bottom:20px;
+    }
+  }
